@@ -19,7 +19,8 @@ Repositório para a live sobre Hyperledger Fabric
 - Publicar chaincode no canal:```./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-javascript/ -ccl javascript```
 #### Terminal 2
 - Acessar aplicação que irá interagir com o chaincode: ```cd asset-transfer-basic/application-javascript```
-- Instalar dependências: ```npm instal```
+- Instalar dependências: ```npm install```
+- Instalar express (para API): ```npm install express```
 - ```ls```
 - ```nano index.js``` 
 - Copiar o conteúdo do arquivo index.js para dentro do novo arquivo.
