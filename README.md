@@ -21,4 +21,6 @@ Repositório para a live sobre Hyperledger Fabric
 - Acessar aplicação que irá interagir com o chaincode: ```cd asset-transfer-basic/application-javascript```
 - Instalar dependências: ```npm instal```
 - ```ls```
+- ```nano index.js``` 
+- Copiar o conteúdo do arquivo index.js para dentro do novo arquivo.
 - Iniciar aplicação: ```node app.js```
